@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4872cc51;
+    color: #333;
+}
+h1, h2 {
+    color: #000000;
+    text-align: center;
+}
+header {
+    background-color: #468bcf94;
+    color: white;
+    padding: 2px;
+    text-align:left;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 50px;
+    text-align:left;
+    }
+.imagem-interesses {
+    width: 200px; 
+    height: auto; 
+    margin-left: 100px;
+    vertical-align: middle; 
+}
