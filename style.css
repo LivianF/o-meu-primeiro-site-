@@ -11,7 +11,7 @@ h1, h2 {
 }
 header {
     background-color: #468bcf94;
-    color: white;
+    color:floralwhite;
     padding: 2px;
     text-align:left;
 }
@@ -38,6 +38,7 @@ section {
 .imagem-interesses {
     width: 200px; 
     height:auto; 
+    border-radius:3%;
     margin-left: 100px;
     display:block;
 }
