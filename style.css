@@ -1,5 +1,5 @@
 body{
-    font-family:Times New Roman, Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #4872cc51;
@@ -37,7 +37,17 @@ section {
     }
 .imagem-interesses {
     width: 200px; 
-    height: auto; 
+    height:auto; 
     margin-left: 100px;
-    vertical-align: middle; 
+    display:block;
+}
+.interesses {
+    display: flex;
+    background-color: rgba(6, 97, 243, 0.462);
+    width: 1000px;
+    margin:100px;
+    text-align:left;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px; 
 }
